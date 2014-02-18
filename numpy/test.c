@@ -7,7 +7,7 @@ void cfun(const void * indatav, int rowcount, int colcount, void * outdatav) {
     int i;
     puts("Here we go!");
     for (i = 0; i < rowcount * colcount; ++i) {
-        outdata[i] = indata[i] * 2;
+        outdata[i] = indata[i]*2 + 5.;
     }
     puts("Done!");
 }
